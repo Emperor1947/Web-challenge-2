@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="cursor"></div>
+    <div id="nav">
+        <img src="https://images.unsplash.com/photo-1611488006001-eb993d4d2ec4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80"
+            alt="">
+        <h4>Toptrace</h4>
+        <h4>golf lessons</h4>
+        <h4>advanture golf</h4>
+        <h4>cofee shop</h4>
+        <h4>leagues</h4>
+    </div>
+    <video autoplay loop muted src="video/home_vdo.mp4"></video>
+    <div id="main">
+        <div id="page1">
+            <h1>EAT, DRINK, PLAY</h1>
+            <h2>welcome to sidecup family</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad, praesentium. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Aliquid, autem.</p>
+        </div>
+        <div id="page2">
+            <div id="scroller">
+                <div id="scroller-in-1">
+                    <h4>Toptrace</h4>
+                    <h4>golf lessons</h4>
+                    <h4>advanture golf</h4>
+                    <h4>cofee shop</h4>
+                    <h4>leagues</h4>
+                </div>
+                <div id="scroller-in-2">
+                    <h4>Toptrace</h4>
+                    <h4>golf lessons</h4>
+                    <h4>advanture golf</h4>
+                    <h4>cofee shop</h4>
+                    <h4>leagues</h4>
+                </div>
+            </div>
+            <div id="about-us">
+                <img src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80"
+                    alt="" srcset="">
+                <div id="about-us-in">
+                    <h3>ABOUT US</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, unde magnam soluta
+                        perferendis minima, sed eos error, optio earum aperiam explicabo rem!</p>
+                </div>
+                <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                    alt="" srcset="">
+
+            </div>
+            <div id="cards-cont">
+                <div class="card" id="card1">
+                    <div class="overlay">
+                        <h4>Aventure Golf</h4>
+                        <p>Lorem ipsum dolor, sit<!-- flag part 1 = NRXWO33OPNTDC3TEL5RDA5DIL5YGC4TU --> amet consectetur adipisicing elit. Hic assumenda perferendis, ducimus
+                            veniam</p>
+                    </div>
+                </div>
+                <div class="card" id="card2">
+                    <div class="overlay">
+                        <h4>Aventure Golf</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic assumenda perferendis, ducimus
+                            veniam, </p>
+                    </div>
+                </div>
+                <div class="card" id="card3">
+                    <div class="overlay">
+                        <h4>Golf lessons</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic assumenda perferendis, ducimus
+                            veniam,</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"
+        integrity="sha512-v/m68W+vaGN/6igoyFpd4GlQzu0jx9/n5gr2PKq5vif+RObyGKHse384YHrOULaxZ810XhlHUrmB3U8UnPB19Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="script.js"></script>
+    <script type="text/javascript" src="vanila-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 12,
+            speed: 400
+        });
+        
+        //It also supports NodeList
+        VanillaTilt.init(document.querySelectorAll(".your-element"));
+    </script>
+</body>
+
+</html>
